@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ie.tcd.dalyc24</groupId>
-    <artifactId>example3</artifactId>
-    <version>1.2</version>
+    <groupId>tcd</groupId>
+    <artifactId>BM25</artifactId>
+    <version>1</version>
 
     <name>example3</name>
     <!-- FIXME change it to the project's website -->
@@ -123,7 +123,7 @@
                             <transformers>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>QueryIndex</mainClass>
+                                    <mainClass>QueryIndexBM25</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

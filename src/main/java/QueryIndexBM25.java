@@ -17,8 +17,8 @@ import java.nio.file.Paths;
 public class QueryIndexBM25 {
 
     public static void main(String[] args) throws Exception {
-        String indexDir = "src/main/resources/index";
-        String queryFile ="src/main/resources/data/cran.qry";
+        String indexDir = "../index";
+        String queryFile ="../cran.qry";
         int MAX_RESULTS = 50;
 
         // Initialize the IndexSearcher and Analyzer
